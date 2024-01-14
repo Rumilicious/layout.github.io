@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/8b7410ffb8.js" crossorigin="anonymous"></script>
+    <style>
+        .containers{
+            background-color:rgb(4, 4, 73);
+            display: grid;
+            /* padding: 120px; */
+            grid-template-columns: auto auto 550px 550px auto auto;
+            margin: 3px;
+            width: auto;
+            padding-top: 300px;
+            padding-left: 40px;
+            padding-bottom: 80px;
+            padding-right: 40px;
+            height: auto;
+        }
+        .items{
+            background-color: aqua;
+            display: grid;
+            margin: 5px;
+            text-align: center;
+            font-size: 80px;
+            padding: 80px; 
+            color: white;
+            text-size-adjust: 50px;
+        }
+
+        .item3{
+            grid-column: 3/5;
+            background-color: rgb(199, 47, 73);
+        }
+        .item4{
+            grid-column: 5/ span 2;
+            background-color:rgb(12, 149, 12);
+        }
+        .item5{
+            background-color: rgba(122, 14, 223, 0.973);
+        }
+        .item6{
+            background-color: deepskyblue ;
+        }
+        .item7{
+            grid-column: 3/5;
+            background-color: rgba(122, 14, 223, 0.973);
+        }
+        .item8{
+            grid-column: 5/ span 2;
+            background-color: rgba(252, 117, 7, 0.968);
+        }
+        .item9{
+            grid-column: 1/3;
+            background-color: rgba(252, 117, 7, 0.968);
+        }
+        .item10{
+            grid-column: 3/5;
+            background-color: rgb(12, 149, 12);
+        }
+        .item13{
+            grid-column: 1/3;
+            background-color: black;
+        }
+        .item14{
+            grid-column: 3/5;
+            background-color: deepskyblue;
+        }
+        .item1{
+            background-color: deepskyblue;
+        }
+        .item2{
+            background-color: rgb(48, 205, 48);
+        }
+        .item12{
+            background-color: rgb(29, 176, 224);
+        }
+        .item16{
+            background-color:rgb(48, 205, 48) ;
+        }
+        .item15{
+            background-color: rgb(199, 47, 73) ;
+        }
+        .item11{
+            padding: 1px;
+            padding-top: 40px ;
+            padding-right: 1px;
+            padding-bottom: 1px;
+            grid-template-columns: 200px;
+            background-color: rgb(50, 2, 50);
+        }
+    </style>
+</head>
+<body>
+    <div class="containers">
+<div class="items item1"><i class="fa-solid fa-bag-shopping"></i><h6>Store</h6></div>
+<div class="items item2"><i class="fa-solid fa-gamepad fa-flip-both"></i>
+    <h6>XBox lIVE games</h6></div>
+<div class="items item3"><i class="fa-solid fa-image"></i><h6>Photos</h6></div>
+<div class="items item4"><i class="fa-solid fa-calendar-days"></i><h6>Calender</h6></div>
+<div class="items item5"><i class="fa-regular fa-map"></i><h6>Maps</h6></div>
+<div class="items item6"><i class="fa-brands fa-internet-explorer"></i><h6>Internet Explore</h6></div>
+<div class="items item7"><i class="fa-regular fa-message"></i><h6>Messaging</h6></div>
+<div class="items item8"><i class="fa-solid fa-user-group"></i><h6>People</h6></div>
+<div class="items item9"><i class="fa-brands fa-youtube"></i><h6>Video</h6></div>
+<div class="items item10"><i class="fa-solid fa-envelope"></i><h6>Mail</h6></div>
+<div class="items item11"><img src="https://images.pexels.com/photos/3165335/pexels-photo-3165335.jpeg?auto=compress&cs=tinysrgb&w=600" alt=""></div>
+<div class="items item12"><i class="fa-solid fa-dice-five"></i><h6>Solitaire</h6></div>
+<div class="items item13"><img src="https://images.pexels.com/photos/726478/pexels-photo-726478.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" ></div>
+<div class="items item14"><i class="fa-solid fa-cloud-sun-rain"></i><h6>Weather</h6></div>
+<div class="items item15"><i class="fa-solid fa-camera-retro"></i><h6>Camera</h6></div>
+<div class="items item16"><i class="fa-brands fa-xbox"></i><h6>Xbox Companion</h6></div>
+    </div>
+</body>
+</html>
